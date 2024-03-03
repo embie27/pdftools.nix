@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-if [[ $# -ne 3 ]]; then
+if [[ $# -ne 2 ]]; then
   echo "Usage: pdf2gray <input> <output>"
   exit 1
 fi
